@@ -40,9 +40,5 @@ CSS. Then we'll figure out what behaviors we need so that we can code the
 appropriate JavaScript. For example, we need the button text and instructions on
 the page to change with each click.
 
-Remember to use your Git skills to keep work moving smoothly. The `master`
-branch should stay clean and functional and whenever you need to add a new
-feature, create a branch for it.
-
 Now you're on your way. If this seems like a big project, don't worry! You've
 got this. Take a few deep breaths and jump in.
