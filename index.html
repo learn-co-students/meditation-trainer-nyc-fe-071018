@@ -1,1 +1,41 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Delius" rel="stylesheet">
+    <title>Meditation Trainer</title>
+    <meta charset="UTF-8"/> 
+  </head> 
+   <body>
+     <header>
+       <center><h1>Meditation Trainer</h1></center>
+     </header>
+     <section>
+      <div class="wrapper">
+        <div class="breath-log">
+          <p><b style="text-decoration: underline">Breath Log</b></p>
+          <div id="logData"></div>
+        </div>
+        <div class="stats">
+          <p><b style="text-decoration: underline">Stats</b></p>
+          <div id="mean"></div><br>
+          <div id="median"></div><br>
+          <div id="mode"></div><br>
+          <div id="std-dev"></div><br>
+        </div>
+      </div>
+    </section>
+   
+    <section>
+       <div class="wrapper">
+        <div class="button">
+          <button id="meditation-button">Start Inhale</button>
+        </div>
+        <div class="instructions">
+          <div><b style="text-decoration: underline">Instructions: </b></div><div id='instructionText'></div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="./index.js"></script>
+   </body>
+</html>
